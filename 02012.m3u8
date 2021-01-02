@@ -1,0 +1,12 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=2248229,CODECS="avc1.64001f,mp4a.40.2",RESOLUTION=1280x720
+https://live-cloudflare.flosports.tv/streams/bb23684-39199/3000/chunklist.m3u8?token=st=1609608821~exp=1609695221~acl=*chunklist.m3u8~data=fp:01f0ded82aeb6875dc8faa03a01336ff;userId:1514102;tokenId:66444ce4-9143-4b63-a804-21638bbc8535~hmac=b3c323f0b0b1909303af0768df936616a181ecdd5019fd5ff2fed552006e9f23
+#EXT-X-STREAM-INF:BANDWIDTH=1497733,CODECS="avc1.64001f,mp4a.40.2",RESOLUTION=960x540
+https://live-cloudflare.flosports.tv/streams/bb23684-39199/1700/chunklist.m3u8?token=st=1609608821~exp=1609695221~acl=*chunklist.m3u8~data=fp:01f0ded82aeb6875dc8faa03a01336ff;userId:1514102;tokenId:66444ce4-9143-4b63-a804-21638bbc8535~hmac=b3c323f0b0b1909303af0768df936616a181ecdd5019fd5ff2fed552006e9f23
+#EXT-X-STREAM-INF:BANDWIDTH=948021,CODECS="avc1.4d401f,mp4a.40.2",RESOLUTION=800x450
+https://live-cloudflare.flosports.tv/streams/bb23684-39199/1000/chunklist.m3u8?token=st=1609608821~exp=1609695221~acl=*chunklist.m3u8~data=fp:01f0ded82aeb6875dc8faa03a01336ff;userId:1514102;tokenId:66444ce4-9143-4b63-a804-21638bbc8535~hmac=b3c323f0b0b1909303af0768df936616a181ecdd5019fd5ff2fed552006e9f23
+#EXT-X-STREAM-INF:BANDWIDTH=595082,CODECS="avc1.4d401e,mp4a.40.2",RESOLUTION=640x360
+https://live-cloudflare.flosports.tv/streams/bb23684-39199/500/chunklist.m3u8?token=st=1609608821~exp=1609695221~acl=*chunklist.m3u8~data=fp:01f0ded82aeb6875dc8faa03a01336ff;userId:1514102;tokenId:66444ce4-9143-4b63-a804-21638bbc8535~hmac=b3c323f0b0b1909303af0768df936616a181ecdd5019fd5ff2fed552006e9f23
+#EXT-X-STREAM-INF:BANDWIDTH=238384,CODECS="avc1.42c015,mp4a.40.2",RESOLUTION=480x270
+https://live-cloudflare.flosports.tv/streams/bb23684-39199/150/chunklist.m3u8?token=st=1609608821~exp=1609695221~acl=*chunklist.m3u8~data=fp:01f0ded82aeb6875dc8faa03a01336ff;userId:1514102;tokenId:66444ce4-9143-4b63-a804-21638bbc8535~hmac=b3c323f0b0b1909303af0768df936616a181ecdd5019fd5ff2fed552006e9f23
