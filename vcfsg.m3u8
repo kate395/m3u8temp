@@ -1,0 +1,14 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=5805900,CODECS="avc1.64002a,mp4a.40.2",RESOLUTION=1920x1080
+https://live-cloudflare.flosports.tv/streams/bb26718-43485/5000/chunklist.m3u8?token=st=1616424669~exp=1616511069~acl=*chunklist.m3u8~data=fp:14911502c2a73504e09ecf8b1e83b736;userId:1514102;tokenId:bec6ced3-8868-40aa-ae7b-20126f7dce16~hmac=2611863eb0413d9cdce3a932726d4560fa829b5560de21aae750323348047162
+#EXT-X-STREAM-INF:BANDWIDTH=3482037,CODECS="avc1.640020,mp4a.40.2",RESOLUTION=1280x720
+https://live-cloudflare.flosports.tv/streams/bb26718-43485/3000/chunklist.m3u8?token=st=1616424669~exp=1616511069~acl=*chunklist.m3u8~data=fp:14911502c2a73504e09ecf8b1e83b736;userId:1514102;tokenId:bec6ced3-8868-40aa-ae7b-20126f7dce16~hmac=2611863eb0413d9cdce3a932726d4560fa829b5560de21aae750323348047162
+#EXT-X-STREAM-INF:BANDWIDTH=2021359,CODECS="avc1.640020,mp4a.40.2",RESOLUTION=960x540
+https://live-cloudflare.flosports.tv/streams/bb26718-43485/1700/chunklist.m3u8?token=st=1616424669~exp=1616511069~acl=*chunklist.m3u8~data=fp:14911502c2a73504e09ecf8b1e83b736;userId:1514102;tokenId:bec6ced3-8868-40aa-ae7b-20126f7dce16~hmac=2611863eb0413d9cdce3a932726d4560fa829b5560de21aae750323348047162
+#EXT-X-STREAM-INF:BANDWIDTH=1296404,CODECS="avc1.4d401f,mp4a.40.2",RESOLUTION=800x450
+https://live-cloudflare.flosports.tv/streams/bb26718-43485/1000/chunklist.m3u8?token=st=1616424669~exp=1616511069~acl=*chunklist.m3u8~data=fp:14911502c2a73504e09ecf8b1e83b736;userId:1514102;tokenId:bec6ced3-8868-40aa-ae7b-20126f7dce16~hmac=2611863eb0413d9cdce3a932726d4560fa829b5560de21aae750323348047162
+#EXT-X-STREAM-INF:BANDWIDTH=752751,CODECS="avc1.4d401f,mp4a.40.2",RESOLUTION=640x360
+https://live-cloudflare.flosports.tv/streams/bb26718-43485/500/chunklist.m3u8?token=st=1616424669~exp=1616511069~acl=*chunklist.m3u8~data=fp:14911502c2a73504e09ecf8b1e83b736;userId:1514102;tokenId:bec6ced3-8868-40aa-ae7b-20126f7dce16~hmac=2611863eb0413d9cdce3a932726d4560fa829b5560de21aae750323348047162
+#EXT-X-STREAM-INF:BANDWIDTH=290232,CODECS="avc1.42c01e,mp4a.40.2",RESOLUTION=480x270
+https://live-cloudflare.flosports.tv/streams/bb26718-43485/150/chunklist.m3u8?token=st=1616424669~exp=1616511069~acl=*chunklist.m3u8~data=fp:14911502c2a73504e09ecf8b1e83b736;userId:1514102;tokenId:bec6ced3-8868-40aa-ae7b-20126f7dce16~hmac=2611863eb0413d9cdce3a932726d4560fa829b5560de21aae750323348047162
