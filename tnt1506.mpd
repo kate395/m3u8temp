@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MPD xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013" xmlns:dvb="urn:dvb:dash:dash-extensions:2014-1" xmlns:move="https://www.movenetworks.com/dash/v1" xmlns:ms="urn:microsoft" xmlns:XMLSchema-instance="https://www.w3.org/2001/XMLSchema-instance" XMLSchema-instance:schemaLocation="urn:mpeg:DASH:schema:MPD:2011 DASH-MPD.xsd" profiles="urn:mpeg:dash:profile:isoff-live:2011" maxSegmentDuration="PT2.048000S" minBufferTime="PT2.048000S" publishTime="2021-06-15T21:30:00Z" type="dynamic" minimumUpdatePeriod="PT2.048000S" availabilityStartTime="2021-06-15T21:30:15Z" mediaPresentationDuration="PT7200.000000S" suggestedPresentationDelay="PT4.096000S">
+    <ProgramInformation>
+        <Linear xmlns="https://www.movenetworks.com/dash/v1">true</Linear>
+        <Gaps xmlns="https://www.movenetworks.com/dash/v1" possible="true"></Gaps>
+    </ProgramInformation>
+    <Period id="1" duration="PT7200.000000S" start="PT0.000000S">
+        <BaseURL serviceLocation="E-Akamai" dvb:priority="1" dvb:weight="34">https://p-cdn3-1-606-cg15-linear-cbd46b77.movetv.com/15805/live/TNTHD/b4f1625cce1111eb90e40025b5471111/</BaseURL>
+        <AdaptationSet contentType="audio" mimeType="audio/mp4" segmentAlignment="true" startWithSAP="1" codecs="mp4a.40.2" lang="en">
+            <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" cenc:default_KID="a148fb5c-9a1b-4fcf-86e1-f983af402533" xmlns:v1="https://www.movenetworks.com/dash/v1" v1:widevineProxy="https://p-drmwv.movetv.com/widevine/proxy"></ContentProtection>
+            <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95" value="MSPR 2.0">
+                <cenc:pssh>AAADMnBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAxISAwAAAQABAAgDPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwATABBAF8AVQBSAEwAPgBoAHQAdABwADoALwAvAHAALQBwAGwAYQB5AHIAZQBhAGQAeQAuAG0AbwB2AGUAdAB2AC4AYwBvAG0ALwBwAGwAYQB5AHIAZQBhAGQAeQAvAHIAaQBnAGgAdABzAG0AYQBuAGEAZwBlAHIALgBhAHMAbQB4ADwALwBMAEEAXwBVAFIATAA+ADwATABVAEkAXwBVAFIATAA+AGgAdAB0AHAAOgAvAC8AcAAtAHAAbABhAHkAcgBlAGEAZAB5AC4AbQBvAHYAZQB0AHYALgBjAG8AbQAvAGwAbwBnAGkAbgAuAGEAcwBwAHgAPAAvAEwAVQBJAF8AVQBSAEwAPgA8AEsASQBEAD4AWABQAHQASQBvAFIAdQBhAHoAMAArAEcANABmAG0ARAByADAAQQBsAE0AdwA9AD0APAAvAEsASQBEAD4APABDAEgARQBDAEsAUwBVAE0APgArAEwASwBkAHYAbQBnAEgAYgA5AGsAPQA8AC8AQwBIAEUAQwBLAFMAVQBNAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=</cenc:pssh>
+            </ContentProtection>
+            <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+                <cenc:pssh>AAAAX3Bzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAD8IARIgYTE0OGZiNWM5YTFiNGZjZjg2ZTFmOTgzYWY0MDI1MzMaB3NsaW5ndHYiCVROVEhELURZTioFU0RfSEQ=</cenc:pssh>
+                <ms:laurl licenseUrl="https://p-drmwv.movetv.com/widevine/proxy"/>
+            </ContentProtection>
+            <ContentProtection schemeIdUri="urn:uuid:1077efec-c0b2-4d02-ace3-3c1e52e2fb4b">
+                <cenc:pssh>AAAAIHBzc2gAAAAAEHfv7MCyTQKs4zweUuL7SwAAAAA=</cenc:pssh>
+            </ContentProtection>
+            <SegmentTemplate timescale="1000" duration="2048" startNumber="3179" initialization="audio/$RepresentationID$/init.mp4" media="audio/$RepresentationID$/$Number%08x$.m4s" presentationTimeOffset="6505600"></SegmentTemplate>
+            <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"></AudioChannelConfiguration>
+            <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
+            <Representation id="stereo/192" audioSamplingRate="48000" bandwidth="196608" qualityRanking="0"></Representation>
+            <Representation id="stereo/160" audioSamplingRate="48000" bandwidth="163840" qualityRanking="1"></Representation>
+            <Representation id="stereo/128" audioSamplingRate="48000" bandwidth="131072" qualityRanking="2"></Representation>
+            <InbandEventStream schemeIdUri="www.nielsen.com:id3:v1" value="1"></InbandEventStream>
+        </AdaptationSet>
+        <AdaptationSet contentType="video" mimeType="video/mp4" segmentAlignment="true" startWithSAP="1">
+            <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" cenc:default_KID="a148fb5c-9a1b-4fcf-86e1-f983af402533" xmlns:v1="https://www.movenetworks.com/dash/v1" v1:widevineProxy="https://p-drmwv.movetv.com/widevine/proxy"></ContentProtection>
+            <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95" value="MSPR 2.0">
+                <cenc:pssh>AAADMnBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAxISAwAAAQABAAgDPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwATABBAF8AVQBSAEwAPgBoAHQAdABwADoALwAvAHAALQBwAGwAYQB5AHIAZQBhAGQAeQAuAG0AbwB2AGUAdAB2AC4AYwBvAG0ALwBwAGwAYQB5AHIAZQBhAGQAeQAvAHIAaQBnAGgAdABzAG0AYQBuAGEAZwBlAHIALgBhAHMAbQB4ADwALwBMAEEAXwBVAFIATAA+ADwATABVAEkAXwBVAFIATAA+AGgAdAB0AHAAOgAvAC8AcAAtAHAAbABhAHkAcgBlAGEAZAB5AC4AbQBvAHYAZQB0AHYALgBjAG8AbQAvAGwAbwBnAGkAbgAuAGEAcwBwAHgAPAAvAEwAVQBJAF8AVQBSAEwAPgA8AEsASQBEAD4AWABQAHQASQBvAFIAdQBhAHoAMAArAEcANABmAG0ARAByADAAQQBsAE0AdwA9AD0APAAvAEsASQBEAD4APABDAEgARQBDAEsAUwBVAE0APgArAEwASwBkAHYAbQBnAEgAYgA5AGsAPQA8AC8AQwBIAEUAQwBLAFMAVQBNAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=</cenc:pssh>
+            </ContentProtection>
+            <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+                <cenc:pssh>AAAAX3Bzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAD8IARIgYTE0OGZiNWM5YTFiNGZjZjg2ZTFmOTgzYWY0MDI1MzMaB3NsaW5ndHYiCVROVEhELURZTioFU0RfSEQ=</cenc:pssh>
+                <ms:laurl licenseUrl="https://p-drmwv.movetv.com/widevine/proxy"/>
+            </ContentProtection>
+            <ContentProtection schemeIdUri="urn:uuid:1077efec-c0b2-4d02-ace3-3c1e52e2fb4b">
+                <cenc:pssh>AAAAIHBzc2gAAAAAEHfv7MCyTQKs4zweUuL7SwAAAAA=</cenc:pssh>
+            </ContentProtection>
+            <Accessibility schemeIdUri="urn:scte:dash:cc:cea-608:2015" value="CC1=eng"></Accessibility>
+            <Accessibility schemeIdUri="urn:scte:dash:cc:cea-708:2015" value="1=lang:eng"></Accessibility>
+            <SegmentTemplate timescale="1000" duration="2048" startNumber="3179" initialization="video/$RepresentationID$/init.mp4" media="video/$RepresentationID$/$Number%08x$.m4s" presentationTimeOffset="6505600"></SegmentTemplate>
+            <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
+            <Representation id="vid06" bandwidth="5632000" codecs="avc1.640028" width="1280" height="720" frameRate="59940/1000" sar="1:1" qualityRanking="0"></Representation>
+            <Representation id="vid05" bandwidth="4300800" codecs="avc1.640028" width="1280" height="720" frameRate="29970/1000" sar="1:1" qualityRanking="1"></Representation>
+            <Representation id="vid04" bandwidth="2867200" codecs="avc1.640028" width="1280" height="720" frameRate="29970/1000" sar="1:1" qualityRanking="2"></Representation>
+            <Representation id="vid03" bandwidth="1536000" codecs="avc1.4d401f" width="768" height="432" frameRate="29970/1000" sar="1:1" qualityRanking="3"></Representation>
+            <Representation id="vid02" bandwidth="819200" codecs="avc1.4d401f" width="768" height="432" frameRate="29970/1000" sar="1:1" qualityRanking="4"></Representation>
+            <Representation id="vid01" bandwidth="319488" codecs="avc1.4d401f" width="512" height="288" frameRate="29970/1000" sar="1:1" qualityRanking="5"></Representation>
+        </AdaptationSet>
+    </Period>
+</MPD>
